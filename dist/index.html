@@ -15,7 +15,7 @@
     </style>
 </head>
 
-<!-- npx @tailwindcss/cli -i ./src/input.css -o style.css --watch -->
+<!-- npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --watch -->
 
 <body class="bg-black sm:mx-0 text-white">
     <section class="nav_bar w-full flex justify-between items-center px-10">
@@ -23,10 +23,19 @@
             <img class="w-15" src="img/logo-bg-remove (1).png" alt="Logo">
         </div>
     </section>
-    
+    <section class="hero flex flex-col justify-start items-center pt-10 md:pt-48 text-center h-[40rem] md:h-[60rem] relative bg-[linear-gradient(180deg,rgba(0,0,0,1)_0%,rgba(0,0,0,1)_79%,rgb(0,90,180,0.5)_100%)]">
+        <div id="star-container"></div>
+
+        <div class="content flex flex-col justify-center items-center">
+            <h1 class="text-3xl md:text-6xl mb-10 font-bold hero_heading">Discover Innovation. Shop the Future.</h1>
+            <p class="w-[70%]">Explore next-gen tech crafted for performance and elegance. From smart devices to intelligent experiences, Infinexa brings premium products straight to your hands—designed to inspire, built to last.</p>
+
+            <button class="explor_btn px-10 py-3 m-10 rounded-xl text-lg  text-black hover:bg-[var(--btn-bright-color)] transition duration-150 z-20">
+                Explore More
+            </button>
+        </div>
+    </section>
 
     
-
-
 </body>
 </html>
