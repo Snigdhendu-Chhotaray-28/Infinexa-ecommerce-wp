@@ -1,0 +1,28 @@
+/* ===================== Google font links ===================== */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libertinus+Math&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap'); */
+
+
+/* ===================== Linking ===================== */
+@import "tailwindcss";
+/* @tailwind utilities; */
+
+
+/* ===================== Font variables ===================== */
+/* @theme{
+    --font-domine: 'Domine', 'serif';
+    --font-inter: 'Inter', 'sans-serif';
+    --font-playfair-Display: 'Playfair Display', 'serif';
+    --font-roboto-slab: 'Roboto Slab', 'serif';
+
+    --btn-bg-color: #32e6e2; 
+    --btn-bg-secondary-color: #05bdba; 
+    --color-box-border1: #005AB4;
+    --gradient-bg-hero: linear-gradient(90deg,rgba(0, 90, 180, 1) 0%, rgba(20, 255, 204, 1) 40%, rgba(20, 255, 204, 1) 50%, rgba(20, 255, 204, 1) 60%, rgba(0, 90, 180, 1) 100%);
+} */
