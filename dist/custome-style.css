@@ -9,3 +9,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
+
+/* ===================== Root Elements ===================== */
+:root{
+    /* ===================== Font variables ===================== */
+    --font-domine: 'Domine', 'serif';
+    --font-inter: 'Inter', 'sans-serif';
+    --font-playfair-Display: 'Playfair Display', 'serif';
+    --font-roboto-slab: 'Roboto Slab', 'serif';
+
+    /* Background color */
+
+    --btn-bg-color: #32e6e2; /* Button background color */
+    --btn-bright-color: #86fffd; /* Button bright color */
+    --btn-bg-secondary-color: #05bdba; /* Secondary button background color */
+    --border-color: rgb(0, 90, 180);
+
+
+    --gradient-bg-hero: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 79%, rgba(0, 90, 180, 0.391) 100%);
+    
+    --bar-color: linear-gradient(90deg,rgba(0, 90, 180, 1) 0%, rgba(20, 255, 204, 1) 40%, rgba(20, 255, 204, 1) 50%, rgba(20, 255, 204, 1) 60%, rgba(0, 90, 180, 1) 100%);
+}
+
+
