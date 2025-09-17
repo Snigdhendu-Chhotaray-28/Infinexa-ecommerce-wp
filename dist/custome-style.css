@@ -36,6 +36,18 @@
     font-family: var(--font-playfair-Display);
 }
 
+/* =================== Star effect (Randomly Generated) ==================== */
 
+/* Container for dynamically generated stars */
+#star-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Ensure stars don't appear outside the container */
+    pointer-events: none; /* Allows clicks to pass through to content */
+    z-index: 1; /* Lowest background layer */
+}
 
 
