@@ -64,6 +64,20 @@
     pointer-events: none;
 }
 
+/* Keyframe for the blinking effect (applied to individual stars) */
+@keyframes twinkle {
+    0%, 100% {
+        opacity: 1; /* Fully visible */
+        transform: scale(1); /* Original size (2px) */
+        background-color: #fff; /* White color */
+    }
+    30%,70% {
+        opacity: 0; /* Keep visible */
+        transform: scale(0.2); /* Scale down to 0.5px (0.25 of 2px = 0.5px) */
+        background-color: #fff; /* Maintain white color */
+    }
+}
+
 
 
 
