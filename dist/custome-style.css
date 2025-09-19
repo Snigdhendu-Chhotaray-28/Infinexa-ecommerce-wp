@@ -109,3 +109,25 @@
 
      animation: shadowchanger 10s linear infinite;
 }
+
+@keyframes shadowchanger{
+    0%, 100%{
+        box-shadow: 0 0 5px var(--border-color), 0 0 100px var(--border-color), 0 10px 15px var(--btn-bg-color);
+    }
+    20%{
+        box-shadow: 0 0 5px var(--border-color), 0 0 100px var(--border-color), -10px 0 15px var(--btn-bg-color);
+    }
+    30%{
+        box-shadow: 0 0 5px var(--border-color), 0 0 100px var(--border-color), -10px 0 15px var(--btn-bg-color);
+    }
+    50%{
+        box-shadow: 0 0 5px var(--border-color), 0 0 100px var(--border-color), 0 -10px 15px var(--btn-bg-color);
+    }
+    70%{
+        box-shadow: 0 0 5px var(--border-color), 0 0 100px var(--border-color), 10px 0 15px var(--btn-bg-color);
+    }
+    80%{
+        box-shadow: 0 0 5px var(--border-color), 0 0 100px var(--border-color), 10px 0 15px var(--btn-bg-color);
+    }
+}
+
