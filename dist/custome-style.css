@@ -131,3 +131,10 @@
     }
 }
 
+.box-shadow1{
+    box-shadow: -10px -10px 25px white;
+}
+
+.border-coustom{
+    border-color: var(--border-color);
+}
