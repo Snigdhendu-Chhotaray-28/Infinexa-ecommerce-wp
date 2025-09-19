@@ -98,3 +98,14 @@
 }
 
 
+.bar{
+    animation-duration: 10s;
+}
+.outer_box{
+    background-color: var(--border-color);
+}
+.shadow-up{
+     /* rgba(20, 255, 204, 1) */
+
+     animation: shadowchanger 10s linear infinite;
+}
