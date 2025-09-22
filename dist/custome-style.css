@@ -157,4 +157,13 @@
   animation: moveGlow 5s infinite 2s alternate;
 }
 
-
+@keyframes moveGlow {
+    0%, 100% {
+        background-position: 0% 0; /* Start the gradient completely to the left (off-screen) */
+    }
+    50% {
+        background-position: 100% 0; /* Move the gradient completely to the right (off-screen) */
+        
+        box-shadow: 0 0 5px rgba(50, 230, 226, 0.5), 0 0 10px rgba(50, 230, 226, 0.5), 0 0 15px rgba(50, 230, 226, 0.5);
+    }
+}
