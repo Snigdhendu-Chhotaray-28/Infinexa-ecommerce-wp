@@ -1,3 +1,4 @@
+/* @tailwind utilities; */
 
 /* ===================== Google font links ===================== */
 
@@ -138,3 +139,22 @@
 .border-coustom{
     border-color: var(--border-color);
 }
+.explor_btn_anim{
+    background:
+    linear-gradient(
+      70deg,
+      #32e6e2 0%, /* Start completely transparent */
+      #32e6e2 45%, /* Start of the glow, semi-transparent blue */
+      #ffffff 50%, /* Brightest part of the glow */
+      #32e6e2 55%, /* End of the glow, semi-transparent blue */
+      #32e6e2 100% /* End completely transparent */
+    )
+    no-repeat; /* Ensure gradient doesn't repeat */
+  background-size: 500% 100%; /* Make the gradient wider than the div to allow full movement */
+  background-position: 0% 0; 
+  /* Start the gradient off-screen to the left */
+
+  animation: moveGlow 5s infinite 2s alternate;
+}
+
+
