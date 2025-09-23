@@ -191,4 +191,8 @@
   box-shadow: inset 155px 0 0 0 var(--btn-bg-secondary-color);
 }
 
+.shop_now:active {
+  transform: scale(0.9);
+}
+
 
