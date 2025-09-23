@@ -195,4 +195,10 @@
   transform: scale(0.9);
 }
 
-
+.comment1, .comment2, .comment3{
+    width: 70%;
+    position: relative;
+}
+.comment2{
+    left: 30%;
+}
