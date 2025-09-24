@@ -227,6 +227,15 @@
     }
 }
 
+/* custome-style.css */
 
+/* Styles for the main section container */
+.logo_list {
+    margin: 2.5rem 0; /* Adjust margin as needed, roughly equivalent to your m-10 */
+    display: flex; /* Helps center the scrolling container if it's narrower than its parent */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
 
