@@ -206,7 +206,18 @@
 .animate-rightmotion{
     animation: rightmotion 10s linear none;
 }
+.animate-leftmotion{
+    animation: leftmotion 10s linear none;
+}
 
+@keyframes leftmotion{
+    0%, 100%{
+        left: 0%;
+    }
+    50%{
+        left: 30%;
+    }
+}
 @keyframes rightmotion{
     0%, 100%{
         left: 30%;
