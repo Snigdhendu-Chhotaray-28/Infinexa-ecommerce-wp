@@ -202,3 +202,20 @@
 .comment2{
     left: 30%;
 }
+
+.animate-rightmotion{
+    animation: rightmotion 10s linear none;
+}
+
+@keyframes rightmotion{
+    0%, 100%{
+        left: 30%;
+    }
+    50%{
+        left: 0%;
+    }
+}
+
+
+
+
