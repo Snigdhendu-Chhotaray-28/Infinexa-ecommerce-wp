@@ -239,3 +239,20 @@
 }
 
 
+/* The actual content that will scroll */
+.scrolling-content {
+    animation: scroll-left 20s linear infinite; /* Applies the scrolling animation */
+    will-change: transform; /* Performance hint for browsers */
+}
+
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0); /* Start at original position */
+    }
+    100% {
+        transform: translateX(-150%); /* Scroll left by half the content's width */
+    }
+}
+
+
