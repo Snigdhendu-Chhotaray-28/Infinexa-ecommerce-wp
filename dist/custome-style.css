@@ -245,7 +245,14 @@
     will-change: transform; /* Performance hint for browsers */
 }
 
-
+/* Styles for the individual logo images */
+.scrolling-content img {
+    width: 6rem; /* Maintain the logo width as per your previous style */
+    height: auto; /* Maintain aspect ratio */
+    flex-shrink: 0; /* Prevents images from shrinking */
+    display: block; /* Ensures no extra space below images */
+}
+/* Keyframe animation for the infinite horizontal scroll */
 @keyframes scroll-left {
     0% {
         transform: translateX(0); /* Start at original position */
