@@ -261,5 +261,8 @@
         transform: translateX(-150%); /* Scroll left by half the content's width */
     }
 }
-
+.about{
+    background-image: url(/img/Blue\ White\ Modern.jpg);
+    background-size: cover;
+}
 
