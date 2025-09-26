@@ -274,3 +274,12 @@
     }
     
 }
+@media (max-width:720px){
+    @media (min-width:640px) {
+        .content_div{
+            width: 250px;
+        }
+    }
+    
+}
+
