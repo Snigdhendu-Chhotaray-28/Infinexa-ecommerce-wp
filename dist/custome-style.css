@@ -283,3 +283,14 @@
     
 }
 
+
+.back_div {
+  display: block; /* or flex */
+  width: 534px;
+  height: 150px;
+  position: relative;
+  left: auto;
+  bottom: 260px;
+  z-index: 10;
+  align-self: center;
+}
