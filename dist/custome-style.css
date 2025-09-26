@@ -266,3 +266,11 @@
     background-size: cover;
 }
 
+@media (max-width:706px){
+    @media (min-width:640px) {
+        .about_content{
+            height: 600px;
+        }
+    }
+    
+}
