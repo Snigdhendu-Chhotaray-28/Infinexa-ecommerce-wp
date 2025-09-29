@@ -306,3 +306,48 @@
     
 }
 
+video{
+    width: 40rem;
+}
+@media (max-width: 1280px) {
+    video{
+        width: 40%;
+        left: 16rem;
+        bottom: 18rem;
+    }
+}
+@media (max-width: 1150px) {
+    video{
+        width: 40%;
+        left: 16rem;
+        bottom: 15rem;
+    }
+}
+@media (max-width: 1030px) {
+    video{
+        width: 46%;
+        left: 12rem;
+        bottom: 15rem;
+    }
+}
+@media (max-width: 915px) {
+    video{
+        width: 50%;
+        left: 10rem;
+        bottom: 15rem;
+    }
+}
+@media (max-width: 810px) {
+    video{
+        width: 55%;
+        left: 7rem;
+        bottom: 15rem;
+    }
+}
+@media (max-width: 700px) {
+    video{
+        width: 58%;
+        left: 6rem;
+        bottom: 13rem;
+    }
+}
