@@ -298,3 +298,11 @@
 .model{
     z-index: 20;
 }
+
+@media (max-width:640px){
+    body{
+            visibility: hidden;
+    }
+    
+}
+
