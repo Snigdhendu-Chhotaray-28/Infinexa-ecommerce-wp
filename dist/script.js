@@ -17,7 +17,9 @@ document.addEventListener('DOMContentLoaded', () => {
         starContainer.appendChild(star);
     }
 
-
+    for (let i = 0; i < numberOfStars; i++) {
+        createStar();
+    }
 
 
 
