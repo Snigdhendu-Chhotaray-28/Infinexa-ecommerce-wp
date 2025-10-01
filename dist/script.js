@@ -17,13 +17,26 @@ document.addEventListener('DOMContentLoaded', () => {
         starContainer.appendChild(star);
     }
 
-    for (let i = 0; i < numberOfStars; i++) {
+    for (let i = 0; i < numberOfStars; i++) { 
         createStar();
     }
 
+    const tabs = document.querySelectorAll('.innerDiv .img .section ul li');
+    const images = document.querySelectorAll('.innerDiv .imgs img');
+    const tabSpans = document.querySelectorAll('.innerDiv .section ul li span');
 
+    tabs.forEach((tab, index) => {
+        tab.addEventListener('click', () => {
+            tabs.forEach((t, i) => {
+                t.classList.remove('w-64');
+                t.classList.add('w-12');
+                t.classList.add('border-b-2');
+                if (tabSpans[i]) tabSpans[i].classList.add('hidden');
+            });
 
-
+            
+        });
+    });
 
 
 });
