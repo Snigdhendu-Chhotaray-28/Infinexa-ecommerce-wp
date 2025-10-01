@@ -34,6 +34,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (tabSpans[i]) tabSpans[i].classList.add('hidden');
             });
 
+            tab.classList.remove('w-12');
+            tab.classList.remove('border-b-2');
+            tab.classList.add('w-64');
+            if (tabSpans[index]) tabSpans[index].classList.remove('hidden');
+
             
         });
     });
