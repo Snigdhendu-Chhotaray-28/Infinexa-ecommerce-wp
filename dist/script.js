@@ -39,7 +39,13 @@ document.addEventListener('DOMContentLoaded', () => {
             tab.classList.add('w-64');
             if (tabSpans[index]) tabSpans[index].classList.remove('hidden');
 
-            
+            images.forEach(img => {
+                img.classList.add('hidden');
+            });
+
+            if (images[index]) {
+                images[index].classList.remove('hidden');
+            }
         });
     });
 
