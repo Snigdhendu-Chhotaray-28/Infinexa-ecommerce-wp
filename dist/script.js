@@ -57,6 +57,12 @@ document.addEventListener('DOMContentLoaded', () => {
         // The gradient is defined in custom-style.css as part of .explor_btn_anim
         const originalGradient = `linear-gradient(70deg, #32e6e2 0%, #32e6e2 45%, #ffffff 50%, #32e6e2 55%, #32e6e2 100%)`;
 
+        explor_btn.addEventListener('mouseenter', () => {
+            explor_btn.style.animationPlayState = 'paused';
+            explor_btn.style.backgroundImage = 'none'; // Remove the gradient image
+            explor_btn.style.backgroundColor = 'var(--btn-bright-color)'; // Set the solid black background
+        });
+
         
     }
     expBtnAnim();
