@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         starContainer.appendChild(star);
     }
 
-    for (let i = 0; i < numberOfStars; i++) { 
+    for (let i = 0; i < numberOfStars; i++) {
         createStar();
     }
 
@@ -48,6 +48,18 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    function expBtnAnim(){
+        const explor_btn = document.querySelector('.explor_btn');
+        explor_btn.classList.add('explor_btn_anim');
+
+        // Store the original gradient string from your CSS to reapply it
+        // The gradient is defined in custom-style.css as part of .explor_btn_anim
+        const originalGradient = `linear-gradient(70deg, #32e6e2 0%, #32e6e2 45%, #ffffff 50%, #32e6e2 55%, #32e6e2 100%)`;
+
+        
+    }
+    expBtnAnim();
 
 
 });
