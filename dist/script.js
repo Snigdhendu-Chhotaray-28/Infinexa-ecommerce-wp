@@ -63,7 +63,12 @@ document.addEventListener('DOMContentLoaded', () => {
             explor_btn.style.backgroundColor = 'var(--btn-bright-color)'; // Set the solid black background
         });
 
-        
+        explor_btn.addEventListener('mouseleave', () => {
+            explor_btn.style.backgroundImage = originalGradient; // Restore the gradient image
+            // You might also want to clear any specific background-color if it conflicts,
+            // but the gradient will now cover it again.
+            explor_btn.style.animationPlayState = 'running';
+        });
     }
     expBtnAnim();
 
