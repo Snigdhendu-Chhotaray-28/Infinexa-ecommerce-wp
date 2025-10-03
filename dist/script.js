@@ -76,7 +76,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const statementsElements = document.querySelectorAll('.statements');
 
         const observer = new IntersectionObserver((entries, observer) => {
-            
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    // Apply animations to the child <p> elements within the intersecting .statements div
+                    
+                    observer.unobserve(entry.target); // Stop observing once the animation is triggered
+                }
+            });
         }, { threshold: 0.1 }); // Trigger when 10% of the element is visible
 
         statementsElements.forEach(el => observer.observe(el));
