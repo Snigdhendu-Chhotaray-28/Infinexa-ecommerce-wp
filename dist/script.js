@@ -72,5 +72,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     expBtnAnim();
 
+    function commentMovement() {
+        const statementsElements = document.querySelectorAll('.statements');
 
+        const observer = new IntersectionObserver((entries, observer) => {
+            
+        }, { threshold: 0.1 }); // Trigger when 10% of the element is visible
+
+        statementsElements.forEach(el => observer.observe(el));
+    }
+    commentMovement();
 });
