@@ -79,7 +79,13 @@ document.addEventListener('DOMContentLoaded', () => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     // Apply animations to the child <p> elements within the intersecting .statements div
-                    
+                    entry.target.querySelectorAll('p').forEach(pElement => {
+                        if (pElement.classList.contains('comment2')) {
+                            pElement.classList.add('animate-rightmotion');
+                        } else {
+                            pElement.classList.add('animate-leftmotion');
+                        }
+                    });
                     observer.unobserve(entry.target); // Stop observing once the animation is triggered
                 }
             });
