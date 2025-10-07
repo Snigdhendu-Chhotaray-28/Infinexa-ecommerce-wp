@@ -6,11 +6,11 @@ Infinexa is a modern, responsive e-commerce website designed to deliver a futuri
 🛍️ Product Showcase – Interactive product cards with details and "Shop Now" options.
 📱 Responsive Design – Fully optimized for desktop, tablet, and mobile.
 🎨 Modern UI/UX – Clean layout, smooth transitions, and glowing effects for a premium look.
-🌌 Immersive Experience – Space-themed background with a futuristic feel.
+🌌 Immersive Experience – Space-themed background with a fadd uturistic feel.
 ⚡ Fast & Lightweight – Built with optimized HTML, CSS, and JavaScript.
 
 💡 Tech Stack
-Frontend: HTML, CSS, JavaScript
+Frontend: HTML, CSS, JavaScript & Tailwind css
 Animations & Effects: CSS transitions
 Deployment: GitHub Pages & Netlify
 
